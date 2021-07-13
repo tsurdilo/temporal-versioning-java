@@ -1,1 +1,1 @@
-## Temporal Hospital Patient Discharge Demo
+## Temporal Versioning Demo - Java SDK
