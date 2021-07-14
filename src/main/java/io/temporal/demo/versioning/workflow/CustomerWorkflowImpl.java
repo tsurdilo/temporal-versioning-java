@@ -37,16 +37,16 @@ public class CustomerWorkflowImpl implements CustomerWorkflow {
 
 
         // STEP 2
-//        int version2 = Workflow.getVersion("addedBonus", Workflow.DEFAULT_VERSION, 2);
-//        if(version2 == 2) {
+//        int version2 = Workflow.getVersion("addedBonus", Workflow.DEFAULT_VERSION, 1);
+//        if(version2 == 1) {
 //            bonus = 200;
 //        }
 
         account = customerActivities.updateCustomerAccount(account, bonus, "Added bonus of: " + bonus);
 
         // STEP 2
-//        int version3 = Workflow.getVersion("addedBonus", Workflow.DEFAULT_VERSION, 2);
-//        if(version3 == 2) {
+//        int version3 = Workflow.getVersion("addedBonus", Workflow.DEFAULT_VERSION, 1);
+//        if(version3 == 1) {
 //            customerActivities.sendBonusEmail(customer, "You received a bonus!");
 //        }
 

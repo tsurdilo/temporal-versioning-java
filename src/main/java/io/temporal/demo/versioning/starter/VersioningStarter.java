@@ -15,7 +15,7 @@ public class VersioningStarter {
     public static final WorkflowClient client = WorkflowClient.newInstance(service);
 
     public static void main(String[] args) {
-        Customer customer = new Customer("c1", "John", "john@john.com", "new", Duration.ofMinutes(1));
+        Customer customer = new Customer("c1", "John", "john@john.com", "new", Duration.ofMinutes(2));
         WorkflowOptions newCustomerWorkflowOptions =
                 WorkflowOptions.newBuilder()
                         .setWorkflowId(customer.getAccountNum())
